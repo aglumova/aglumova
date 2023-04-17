@@ -16,8 +16,4 @@
 <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=aglumova&theme=react&hide_border=true" />
 </td>
 </table>
-  
-
-<p  align="center">
-<a  href="https://github.com/aglumova/github-readme-activity-graph"><img  alt="Alina's Activity Graph"  src="https://activity-graph.herokuapp.com/graph?username=aglumova&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true&no-bg=true&no-frame=true" /></a>
-</p>
+ 
