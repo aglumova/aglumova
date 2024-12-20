@@ -10,7 +10,7 @@
 <table>
 </td>
   <td width="100%" align="center">
-<img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://streak-stats.demolab.com/?user=aglumova&theme=highcontrast&hide_border=true" />
+<img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://streak-stats.demolab.com?user=aglumova&theme=highcontrast&hide_border=true" />
 </td>
 </table>
  
