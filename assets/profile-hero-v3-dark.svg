@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Alina</title>
-  <desc id="desc">I make AI coding agents understand what they change — and prove it. A quiet codegraph flows from context to audit.</desc>
+  <desc id="desc">I explore AI that works beyond the demo. A quiet signal travels from device to model, agent, and real-world systems.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0D1117"/>
@@ -23,19 +23,18 @@
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
     <text x="54" y="58" fill="#C58A5A" font-size="18" font-weight="650" letter-spacing="2.5">HI, I'M ALINA.</text>
-    <text x="54" y="105" fill="#F3EDE2" font-size="27" font-weight="650" letter-spacing="0.1">I make AI coding agents understand what they change — and prove it.</text>
+    <text x="54" y="105" fill="#F3EDE2" font-size="31" font-weight="650" letter-spacing="0.1">I explore AI that works beyond the demo.</text>
   </g>
-  <text x="54" y="139" fill="#9DA7B3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.15">Building Mastermind · MCP · code intelligence · evals</text>
+  <text x="54" y="141" fill="#9DA7B3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.15">Edge AI · AI agents · applied LLMs · secure systems</text>
 
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M54 180H222l32-16h172l32 16h172l32-16h172l32 16h302" stroke="#C58A5A" stroke-opacity="0.25" stroke-width="1.4"/>
-    <path class="signal" d="M54 180H222l32-16h172l32 16h172l32-16h172l32 16h302" stroke="#C58A5A" stroke-opacity="0.7" stroke-width="1.7"/>
+    <path d="M54 180H240l32-16h296l32 16h296l32-16h218" stroke="#C58A5A" stroke-opacity="0.25" stroke-width="1.4"/>
+    <path class="signal" d="M54 180H240l32-16h296l32 16h296l32-16h218" stroke="#C58A5A" stroke-opacity="0.7" stroke-width="1.7"/>
   </g>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.35" text-anchor="middle">
-    <g fill="#52B8FF"><circle cx="130" cy="180" r="3.5"/><text x="130" y="202">CONTEXT</text></g>
-    <g fill="#C58A5A"><circle cx="352" cy="164" r="3.5"/><text x="352" y="153">PLAN</text></g>
-    <g fill="#F3EDE2"><circle cx="544" cy="180" r="3.5"/><text x="544" y="202">CHANGE</text></g>
-    <g fill="#2DD4BF"><circle cx="746" cy="164" r="3.5"/><text x="746" y="153">TEST</text></g>
-    <g fill="#2DD4BF"><circle cx="938" cy="180" r="3.5"/><text x="938" y="202">AUDIT</text></g>
+    <g fill="#52B8FF"><circle cx="140" cy="180" r="3.5"/><text x="140" y="202">DEVICE</text></g>
+    <g fill="#C58A5A"><circle cx="420" cy="164" r="3.5"/><text x="420" y="153">MODEL</text></g>
+    <g fill="#F3EDE2"><circle cx="700" cy="180" r="3.5"/><text x="700" y="202">AGENT</text></g>
+    <g fill="#2DD4BF"><circle cx="1000" cy="164" r="3.5"/><text x="1000" y="153">REAL WORLD</text></g>
   </g>
 </svg>

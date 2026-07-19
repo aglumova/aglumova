@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Alina</title>
-  <desc id="desc">I make AI coding agents understand what they change — and prove it. A quiet codegraph flows from context to audit.</desc>
+  <desc id="desc">I explore AI that works beyond the demo. A quiet signal travels from device to model, agent, and real-world systems.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#F6F3ED"/>
@@ -23,21 +23,19 @@
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
     <text x="38" y="52" fill="#A7643C" font-size="20" font-weight="650" letter-spacing="2.4">HI, I'M ALINA.</text>
-    <text x="38" y="94" fill="#18202A" font-size="29" font-weight="650">I make AI coding agents</text>
-    <text x="38" y="130" fill="#18202A" font-size="29" font-weight="650">understand what they change</text>
-    <text x="38" y="166" fill="#18202A" font-size="29" font-weight="650">— and prove it.</text>
+    <text x="38" y="100" fill="#18202A" font-size="31" font-weight="650">I explore AI that works</text>
+    <text x="38" y="139" fill="#18202A" font-size="31" font-weight="650">beyond the demo.</text>
   </g>
-  <text x="38" y="204" fill="#65717E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" letter-spacing="0.7">Building Mastermind · MCP · code intelligence · evals</text>
+  <text x="38" y="179" fill="#65717E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" letter-spacing="0.7">Edge AI · AI agents · applied LLMs · secure systems</text>
 
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M38 252H150l24-14h104l24 14h104l24-14h104l24 14h128" stroke="#A7643C" stroke-opacity="0.25" stroke-width="1.4"/>
-    <path class="signal" d="M38 252H150l24-14h104l24 14h104l24-14h104l24 14h128" stroke="#A7643C" stroke-opacity="0.65" stroke-width="1.7"/>
+    <path d="M38 246H176l24-14h156l24 14h156l24-14h122" stroke="#A7643C" stroke-opacity="0.25" stroke-width="1.4"/>
+    <path class="signal" d="M38 246H176l24-14h156l24 14h156l24-14h122" stroke="#A7643C" stroke-opacity="0.65" stroke-width="1.7"/>
   </g>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" text-anchor="middle">
-    <g fill="#2679A8"><circle cx="84" cy="252" r="3.5"/><text x="84" y="276">CONTEXT</text></g>
-    <g fill="#A7643C"><circle cx="226" cy="238" r="3.5"/><text x="226" y="228">PLAN</text></g>
-    <g fill="#18202A"><circle cx="354" cy="252" r="3.5"/><text x="354" y="276">CHANGE</text></g>
-    <g fill="#167C6C"><circle cx="482" cy="238" r="3.5"/><text x="482" y="228">TEST</text></g>
-    <g fill="#167C6C"><circle cx="610" cy="252" r="3.5"/><text x="610" y="276">AUDIT</text></g>
+    <g fill="#2679A8"><circle cx="90" cy="246" r="3.5"/><text x="90" y="272">DEVICE</text></g>
+    <g fill="#A7643C"><circle cx="278" cy="232" r="3.5"/><text x="278" y="221">MODEL</text></g>
+    <g fill="#18202A"><circle cx="458" cy="246" r="3.5"/><text x="458" y="272">AGENT</text></g>
+    <g fill="#167C6C"><circle cx="620" cy="232" r="3.5"/><text x="620" y="221">REAL WORLD</text></g>
   </g>
 </svg>
