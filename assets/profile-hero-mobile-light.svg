@@ -1,105 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 660" role="img" aria-labelledby="title desc">
-  <title id="title">Alina Glumova — AI Agent Infrastructure</title>
-  <desc id="desc">A numbered codegraph flows downward through context, plan, change, test, and audit around Alina Glumova's name.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Alina</title>
+  <desc id="desc">I make AI coding agents understand what they change — and prove it. A quiet codegraph flows from context to audit.</desc>
   <defs>
-    <linearGradient id="mobile-light-bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#F6F3ED"/>
-      <stop offset="0.52" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#FFFFFF"/>
       <stop offset="1" stop-color="#F6F3ED"/>
     </linearGradient>
-    <pattern id="mobile-light-grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#65717E" stroke-opacity="0.075"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#65717E" stroke-opacity="0.06"/>
     </pattern>
     <style><![CDATA[
-      .signal { stroke-dasharray: 7 15; animation: signal-flow 8s linear infinite; }
-      .pulse { animation: node-pulse 5s ease-in-out infinite; }
-      .p2 { animation-delay: 1s; }
-      .p3 { animation-delay: 2s; }
-      .p4 { animation-delay: 3s; }
-      .p5 { animation-delay: 4s; }
-      @keyframes signal-flow { to { stroke-dashoffset: -220; } }
-      @keyframes node-pulse { 0%, 18%, 100% { opacity: .13; } 7% { opacity: .55; } }
-      @media (prefers-reduced-motion: reduce) {
-        .signal, .pulse { animation: none; }
-        .pulse { opacity: .22; }
-      }
+      .signal { stroke-dasharray: 5 13; animation: flow 9s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -180; } }
+      @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
     ]]></style>
   </defs>
 
-  <rect x="8" y="8" width="704" height="644" rx="20" fill="url(#mobile-light-bg)" stroke="#A7643C" stroke-opacity="0.4"/>
-  <rect x="9" y="9" width="702" height="642" rx="19" fill="url(#mobile-light-grid)"/>
+  <rect x="5" y="5" width="710" height="290" rx="16" fill="url(#bg)" stroke="#A7643C" stroke-opacity="0.38"/>
+  <rect x="6" y="6" width="708" height="288" rx="15" fill="url(#grid)"/>
 
-  <g fill="#65717E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">
-    <text x="32" y="39">LOCAL-FIRST / 01</text>
-    <text x="688" y="39" text-anchor="end">VERIFIED / 05</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="38" y="52" fill="#A7643C" font-size="20" font-weight="650" letter-spacing="2.4">HI, I'M ALINA.</text>
+    <text x="38" y="94" fill="#18202A" font-size="29" font-weight="650">I make AI coding agents</text>
+    <text x="38" y="130" fill="#18202A" font-size="29" font-weight="650">understand what they change</text>
+    <text x="38" y="166" fill="#18202A" font-size="29" font-weight="650">— and prove it.</text>
   </g>
+  <text x="38" y="204" fill="#65717E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" letter-spacing="0.7">Building Mastermind · MCP · code intelligence · evals</text>
 
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M32 72h100l24 24h78" stroke="#2679A8" stroke-opacity="0.19"/>
-    <path d="M486 96h78l24-24h100" stroke="#167C6C" stroke-opacity="0.18"/>
-    <path d="M32 72h100l24 24h78" class="signal" stroke="#2679A8" stroke-opacity="0.52" stroke-width="1.5"/>
-    <path d="M486 96h78l24-24h100" class="signal" stroke="#167C6C" stroke-opacity="0.48" stroke-width="1.5"/>
+    <path d="M38 252H150l24-14h104l24 14h104l24-14h104l24 14h128" stroke="#A7643C" stroke-opacity="0.25" stroke-width="1.4"/>
+    <path class="signal" d="M38 252H150l24-14h104l24 14h104l24-14h104l24 14h128" stroke="#A7643C" stroke-opacity="0.65" stroke-width="1.7"/>
   </g>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
-    <text x="360" y="112" fill="#18202A" font-size="46" font-weight="700" letter-spacing="7">ALINA GLUMOVA</text>
-    <text x="360" y="153" fill="#A7643C" font-size="20" font-weight="600" letter-spacing="4">AI AGENT INFRASTRUCTURE</text>
-    <line x1="218" y1="179" x2="502" y2="179" stroke="#2679A8" stroke-opacity="0.5"/>
-    <circle cx="208" cy="179" r="3" fill="#2679A8"/>
-    <circle cx="512" cy="179" r="3" fill="#167C6C"/>
-    <text x="360" y="209" fill="#65717E" font-size="17" letter-spacing="2.2">MCP · CODE INTELLIGENCE · EVALS</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1" text-anchor="middle">
+    <g fill="#2679A8"><circle cx="84" cy="252" r="3.5"/><text x="84" y="276">CONTEXT</text></g>
+    <g fill="#A7643C"><circle cx="226" cy="238" r="3.5"/><text x="226" y="228">PLAN</text></g>
+    <g fill="#18202A"><circle cx="354" cy="252" r="3.5"/><text x="354" y="276">CHANGE</text></g>
+    <g fill="#167C6C"><circle cx="482" cy="238" r="3.5"/><text x="482" y="228">TEST</text></g>
+    <g fill="#167C6C"><circle cx="610" cy="252" r="3.5"/><text x="610" y="276">AUDIT</text></g>
   </g>
-
-  <line x1="68" y1="240" x2="652" y2="240" stroke="#65717E" stroke-opacity="0.18"/>
-  <text x="68" y="277" fill="#A7643C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" letter-spacing="3">VERIFICATION PATH</text>
-
-  <g fill="none" stroke-linecap="round">
-    <path d="M150 315v264" stroke="#A7643C" stroke-opacity="0.29" stroke-width="1.5"/>
-    <path d="M150 315v264" class="signal" stroke="#A7643C" stroke-opacity="0.66" stroke-width="2"/>
-  </g>
-
-  <g fill="none" stroke="#A7643C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.68">
-    <path d="m143 357 7 7 7-7"/>
-    <path d="m143 421 7 7 7-7"/>
-    <path d="m143 485 7 7 7-7"/>
-    <path d="m143 549 7 7 7-7"/>
-  </g>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <g>
-      <circle class="pulse" cx="150" cy="323" r="21" fill="#2679A8" opacity="0.13"/>
-      <circle cx="150" cy="323" r="6" fill="#FFFFFF" stroke="#2679A8" stroke-width="2.5"/>
-      <text x="70" y="330" fill="#2679A8" font-size="18" letter-spacing="2">01</text>
-      <text x="196" y="331" fill="#18202A" font-size="22" font-weight="600" letter-spacing="3">CONTEXT</text>
-    </g>
-    <g>
-      <circle class="pulse p2" cx="150" cy="387" r="21" fill="#A7643C" opacity="0.13"/>
-      <circle cx="150" cy="387" r="6" fill="#FFFFFF" stroke="#A7643C" stroke-width="2.5"/>
-      <text x="70" y="394" fill="#A7643C" font-size="18" letter-spacing="2">02</text>
-      <text x="196" y="395" fill="#18202A" font-size="22" font-weight="600" letter-spacing="3">PLAN</text>
-    </g>
-    <g>
-      <circle class="pulse p3" cx="150" cy="451" r="21" fill="#A7643C" opacity="0.13"/>
-      <circle cx="150" cy="451" r="6" fill="#FFFFFF" stroke="#A7643C" stroke-width="2.5"/>
-      <text x="70" y="458" fill="#A7643C" font-size="18" letter-spacing="2">03</text>
-      <text x="196" y="459" fill="#18202A" font-size="22" font-weight="600" letter-spacing="3">CHANGE</text>
-      <path d="M407 451h205" stroke="#A7643C" stroke-opacity="0.36"/>
-      <text x="628" y="457" fill="#A7643C" font-size="12" text-anchor="end" letter-spacing="2">ACTIVE</text>
-    </g>
-    <g>
-      <circle class="pulse p4" cx="150" cy="515" r="21" fill="#167C6C" opacity="0.13"/>
-      <circle cx="150" cy="515" r="6" fill="#FFFFFF" stroke="#167C6C" stroke-width="2.5"/>
-      <text x="70" y="522" fill="#167C6C" font-size="18" letter-spacing="2">04</text>
-      <text x="196" y="523" fill="#18202A" font-size="22" font-weight="600" letter-spacing="3">TEST</text>
-    </g>
-    <g>
-      <circle class="pulse p5" cx="150" cy="579" r="21" fill="#167C6C" opacity="0.13"/>
-      <circle cx="150" cy="579" r="6" fill="#FFFFFF" stroke="#167C6C" stroke-width="2.5"/>
-      <text x="70" y="586" fill="#167C6C" font-size="18" letter-spacing="2">05</text>
-      <text x="196" y="587" fill="#18202A" font-size="22" font-weight="600" letter-spacing="3">AUDIT</text>
-    </g>
-  </g>
-
-  <text x="688" y="625" fill="#65717E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="end" letter-spacing="2">MCP / LOCAL CODEGRAPH</text>
 </svg>

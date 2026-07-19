@@ -3,10 +3,8 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/profile-hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
-  <img src="./assets/profile-hero-dark.svg" width="100%" alt="Alina Glumova — AI agent infrastructure, MCP, code intelligence, and evals. A structural graph flows from context through plan, change, test, and audit.">
+  <img src="./assets/profile-hero-dark.svg" width="100%" alt="Hi, I'm Alina. I make AI coding agents understand what they change — and prove it. Building Mastermind, MCP, code intelligence, and evals.">
 </picture>
-
-<p align="center"><strong>I build infrastructure that makes AI coding agents more reliable.</strong></p>
 
 <p align="center">
   <a href="https://github.com/xcrft/mastermind"><img alt="Mastermind 1.0.0" src="https://img.shields.io/badge/Mastermind-1.0.0-C58A5A?style=flat-square&logo=github&logoColor=white"></a>
@@ -18,7 +16,7 @@
 
 ## Building now
 
-I'm the creator of [Mastermind](https://github.com/xcrft/mastermind), a local-first code intelligence and verification layer for Claude Code, Codex, Cursor, and Continue.
+I'm building [Mastermind](https://github.com/xcrft/mastermind) to give Claude Code, Codex, Cursor, and Continue a local-first code intelligence and verification layer.
 
 - **Understand** — local Rust codegraph, project maps, and structural queries over MCP
 - **Change safely** — change-impact and test-impact analysis grounded in the repository
