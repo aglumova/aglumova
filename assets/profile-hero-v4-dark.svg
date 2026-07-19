@@ -18,9 +18,10 @@
     <style><![CDATA[
       .route { stroke-dasharray: 2 7; }
       .traveller { filter: url(#glow); }
-      .traveller-static { opacity: 0.72; }
+      .traveller-static { display: none; opacity: 0.72; }
       @media (prefers-reduced-motion: reduce) {
         .traveller { display: none; }
+        .traveller-static { display: inline; }
       }
     ]]></style>
   </defs>
@@ -40,11 +41,11 @@
 
   <g fill="none" stroke="#71808E" stroke-opacity="0.46" stroke-width="1.2" stroke-linecap="round">
     <path class="route" d="M890 108C828 83 783 63 721 54"/>
-    <path class="route" d="M910 108C972 82 1017 66 1081 58"/>
-    <path class="route" d="M910 120C974 142 1021 160 1082 169"/>
+    <path class="route" d="M910 108C916 90 918 74 920 58"/>
+    <path class="route" d="M910 120C916 137 918 153 920 169"/>
     <path class="route" d="M890 120C827 143 781 160 720 170"/>
-    <path d="M721 54C818 27 984 30 1081 58" stroke-opacity="0.16"/>
-    <path d="M720 170C818 199 984 198 1082 169" stroke-opacity="0.16"/>
+    <path d="M721 54C790 27 855 30 920 58" stroke-opacity="0.16"/>
+    <path d="M720 170C790 199 855 198 920 169" stroke-opacity="0.16"/>
     <ellipse cx="900" cy="114" rx="80" ry="35" stroke="#C58A5A" stroke-opacity="0.34" stroke-dasharray="3 6"/>
   </g>
 
@@ -54,12 +55,12 @@
       <text x="14" y="11" fill="#DDE5EC" font-size="20" font-weight="700" letter-spacing="0.7">EDGE AI</text>
       <text x="14" y="31" fill="#71808E" font-size="16" letter-spacing="0.2">local / on-device</text>
     </g>
-    <g transform="translate(930 42)">
+    <g transform="translate(920 42)">
       <circle cx="0" cy="14" r="4" fill="#2DD4BF"/>
       <text x="14" y="11" fill="#DDE5EC" font-size="20" font-weight="700" letter-spacing="0.7">AGENT SYSTEMS</text>
       <text x="14" y="31" fill="#71808E" font-size="16" letter-spacing="0.2">tools / context / evals</text>
     </g>
-    <g transform="translate(950 153)">
+    <g transform="translate(920 153)">
       <circle cx="0" cy="14" r="4" fill="#52B8FF"/>
       <text x="14" y="11" fill="#DDE5EC" font-size="20" font-weight="700" letter-spacing="0.55">SECURE SOFTWARE</text>
       <text x="14" y="31" fill="#71808E" font-size="16" letter-spacing="0.1">reliability / boundaries</text>

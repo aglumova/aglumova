@@ -18,9 +18,10 @@
     <style><![CDATA[
       .route { stroke-dasharray: 2 7; }
       .traveller { filter: url(#glow); }
-      .traveller-static { opacity: 0.72; }
+      .traveller-static { display: none; opacity: 0.72; }
       @media (prefers-reduced-motion: reduce) {
         .traveller { display: none; }
+        .traveller-static { display: inline; }
       }
     ]]></style>
   </defs>
