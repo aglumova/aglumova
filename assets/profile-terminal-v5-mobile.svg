@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">Alina Glumova terminal profile</title>
+  <desc id="desc">A terminal types that Alina Glumova is a software engineer interested in Edge AI, agent systems, secure software, local AI, MCP, and evaluations.</desc>
+
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#24303a" stroke-width="1" opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <style>
+    text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      text-rendering: geometricPrecision;
+    }
+    .chrome { fill: #82909d; font-size: 20px; letter-spacing: 0.02em; }
+    .line { fill: #eee9df; font-size: 26px; }
+    .prompt { fill: #d0945c; }
+    .path { fill: #8996a3; }
+    .label { fill: #5db7ee; }
+    .value { fill: #eee9df; }
+    .cursor { fill: #d0945c; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .command { clip-path: inset(0 100% 0 0); animation: command 11s steps(13, end) infinite; }
+      .name { clip-path: inset(0 100% 0 0); animation: name 11s steps(26, end) infinite; }
+      .role { clip-path: inset(0 100% 0 0); animation: role 11s steps(31, end) infinite; }
+      .interests-label { clip-path: inset(0 100% 0 0); animation: interestsLabel 11s steps(9, end) infinite; }
+      .interests-value { clip-path: inset(0 100% 0 0); animation: interestsValue 11s steps(41, end) infinite; }
+      .currently-label { clip-path: inset(0 100% 0 0); animation: currentlyLabel 11s steps(9, end) infinite; }
+      .currently-value { clip-path: inset(0 100% 0 0); animation: currentlyValue 11s steps(28, end) infinite; }
+      .final-prompt { opacity: 0; animation: finalPrompt 11s step-end infinite; }
+      .cursor { opacity: 0; animation: cursorBlink 11s step-end infinite; }
+
+      @keyframes command {
+        0%, 2% { clip-path: inset(0 100% 0 0); }
+        11%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes name {
+        0%, 14% { clip-path: inset(0 100% 0 0); }
+        21%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes role {
+        0%, 24% { clip-path: inset(0 100% 0 0); }
+        32%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes interestsLabel {
+        0%, 35% { clip-path: inset(0 100% 0 0); }
+        39%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes interestsValue {
+        0%, 40% { clip-path: inset(0 100% 0 0); }
+        50%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes currentlyLabel {
+        0%, 51% { clip-path: inset(0 100% 0 0); }
+        54%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes currentlyValue {
+        0%, 55% { clip-path: inset(0 100% 0 0); }
+        65%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes finalPrompt {
+        0%, 67% { opacity: 0; }
+        68%, 100% { opacity: 1; }
+      }
+      @keyframes cursorBlink {
+        0%, 67% { opacity: 0; }
+        68%, 74%, 81%, 87%, 94%, 100% { opacity: 1; }
+        75%, 80%, 88%, 93% { opacity: 0; }
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .command, .name, .role, .interests-label, .interests-value, .currently-label, .currently-value { clip-path: none; animation: none; }
+      .final-prompt, .cursor { opacity: 1; animation: none; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="718" height="398" rx="10" fill="#0d141b" stroke="#46515c" stroke-width="2"/>
+  <rect x="2" y="52" width="716" height="346" rx="9" fill="url(#grid)"/>
+  <path d="M 1 52 H 719" stroke="#303b45" stroke-width="1"/>
+  <text x="28" y="34" class="chrome">alina@github — about.txt</text>
+  <circle cx="686" cy="26" r="4" fill="#43d6c4" opacity="0.85"/>
+
+  <g class="line">
+    <text x="28" y="86"><tspan class="prompt">alina@github</tspan><tspan class="path"> ~ </tspan><tspan class="prompt">% </tspan><tspan class="command value">cat about.txt</tspan></text>
+    <text x="28" y="128" class="name"><tspan class="label">name</tspan><tspan dx="80" class="value">Alina Glumova</tspan></text>
+    <text x="28" y="170" class="role"><tspan class="label">role</tspan><tspan dx="80" class="value">software engineer</tspan></text>
+    <text x="28" y="212" class="interests-label label">interests</text>
+    <text x="52" y="247" class="interests-value value">Edge AI · agent systems · secure software</text>
+    <text x="28" y="289" class="currently-label label">currently</text>
+    <text x="52" y="324" class="currently-value value">local AI · MCP · evaluations</text>
+    <text x="28" y="371" class="final-prompt"><tspan class="prompt">alina@github</tspan><tspan class="path"> ~ </tspan><tspan class="prompt">% </tspan></text>
+    <rect class="cursor" x="296" y="347" width="15" height="28" rx="1"/>
+  </g>
+</svg>

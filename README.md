@@ -1,9 +1,6 @@
 <picture>
-  <source media="(max-width: 800px) and (prefers-color-scheme: dark)" srcset="./assets/profile-hero-v4-mobile-dark.svg">
-  <source media="(max-width: 800px) and (prefers-color-scheme: light)" srcset="./assets/profile-hero-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-v4-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-v4-light.svg">
-  <img src="./assets/profile-hero-v4-dark.svg" width="100%" alt="Hi, I'm Alina — a software engineer exploring Edge AI, agent systems, secure software, and open source.">
+  <source media="(max-width: 800px)" srcset="./assets/profile-terminal-v5-mobile.svg">
+  <img src="./assets/profile-terminal-v5.svg" width="100%" alt="Terminal profile for Alina Glumova: software engineer interested in Edge AI, agent systems, secure software, local AI, MCP, and evaluations.">
 </picture>
 
 ## Lately
