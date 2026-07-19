@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
   <title id="title">Alina Glumova terminal profile</title>
-  <desc id="desc">A terminal types that Alina Glumova is a software engineer interested in Edge AI, agent systems, secure software, local AI, MCP, and evaluations.</desc>
+  <desc id="desc">A terminal types that Alina Glumova is a software engineer driven by curiosity about AI, ML, and LLMs, exploring Edge AI, agents, and secure software.</desc>
 
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
@@ -26,10 +26,10 @@
       .command { clip-path: inset(0 100% 0 0); animation: command 11s steps(13, end) infinite; }
       .name { clip-path: inset(0 100% 0 0); animation: name 11s steps(26, end) infinite; }
       .role { clip-path: inset(0 100% 0 0); animation: role 11s steps(31, end) infinite; }
-      .interests-label { clip-path: inset(0 100% 0 0); animation: interestsLabel 11s steps(9, end) infinite; }
-      .interests-value { clip-path: inset(0 100% 0 0); animation: interestsValue 11s steps(41, end) infinite; }
-      .currently-label { clip-path: inset(0 100% 0 0); animation: currentlyLabel 11s steps(9, end) infinite; }
-      .currently-value { clip-path: inset(0 100% 0 0); animation: currentlyValue 11s steps(28, end) infinite; }
+      .driven-label { clip-path: inset(0 100% 0 0); animation: drivenLabel 11s steps(9, end) infinite; }
+      .driven-value { clip-path: inset(0 100% 0 0); animation: drivenValue 11s steps(28, end) infinite; }
+      .exploring-label { clip-path: inset(0 100% 0 0); animation: exploringLabel 11s steps(9, end) infinite; }
+      .exploring-value { clip-path: inset(0 100% 0 0); animation: exploringValue 11s steps(35, end) infinite; }
       .final-prompt { opacity: 0; animation: finalPrompt 11s step-end infinite; }
       .cursor { opacity: 0; animation: cursorBlink 11s step-end infinite; }
 
@@ -45,19 +45,19 @@
         0%, 24% { clip-path: inset(0 100% 0 0); }
         32%, 100% { clip-path: inset(0 0 0 0); }
       }
-      @keyframes interestsLabel {
+      @keyframes drivenLabel {
         0%, 35% { clip-path: inset(0 100% 0 0); }
         39%, 100% { clip-path: inset(0 0 0 0); }
       }
-      @keyframes interestsValue {
+      @keyframes drivenValue {
         0%, 40% { clip-path: inset(0 100% 0 0); }
         50%, 100% { clip-path: inset(0 0 0 0); }
       }
-      @keyframes currentlyLabel {
+      @keyframes exploringLabel {
         0%, 51% { clip-path: inset(0 100% 0 0); }
         54%, 100% { clip-path: inset(0 0 0 0); }
       }
-      @keyframes currentlyValue {
+      @keyframes exploringValue {
         0%, 55% { clip-path: inset(0 100% 0 0); }
         65%, 100% { clip-path: inset(0 0 0 0); }
       }
@@ -73,7 +73,7 @@
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .command, .name, .role, .interests-label, .interests-value, .currently-label, .currently-value { clip-path: none; animation: none; }
+      .command, .name, .role, .driven-label, .driven-value, .exploring-label, .exploring-value { clip-path: none; animation: none; }
       .final-prompt, .cursor { opacity: 1; animation: none; }
     }
   </style>
@@ -88,10 +88,10 @@
     <text x="28" y="86"><tspan class="prompt">alina@github</tspan><tspan class="path"> ~ </tspan><tspan class="prompt">% </tspan><tspan class="command value">cat about.txt</tspan></text>
     <text x="28" y="128" class="name"><tspan class="label">name</tspan><tspan dx="80" class="value">Alina Glumova</tspan></text>
     <text x="28" y="170" class="role"><tspan class="label">role</tspan><tspan dx="80" class="value">software engineer</tspan></text>
-    <text x="28" y="212" class="interests-label label">interests</text>
-    <text x="52" y="247" class="interests-value value">Edge AI · agent systems · secure software</text>
-    <text x="28" y="289" class="currently-label label">currently</text>
-    <text x="52" y="324" class="currently-value value">local AI · MCP · evaluations</text>
+    <text x="28" y="212" class="driven-label label">driven by</text>
+    <text x="52" y="247" class="driven-value value">curiosity · AI · ML · LLMs</text>
+    <text x="28" y="289" class="exploring-label label">exploring</text>
+    <text x="52" y="324" class="exploring-value value">Edge AI · agents · secure software</text>
     <text x="28" y="371" class="final-prompt"><tspan class="prompt">alina@github</tspan><tspan class="path"> ~ </tspan><tspan class="prompt">% </tspan></text>
     <rect class="cursor" x="296" y="347" width="15" height="28" rx="1"/>
   </g>

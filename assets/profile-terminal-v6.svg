@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
   <title id="title">Alina Glumova terminal profile</title>
-  <desc id="desc">A terminal types that Alina Glumova is a software engineer interested in Edge AI, agent systems, secure software, local AI, MCP, and evaluations.</desc>
+  <desc id="desc">A terminal types that Alina Glumova is a software engineer driven by curiosity about AI, ML, and LLMs, exploring Edge AI, agents, and secure software.</desc>
 
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
@@ -27,8 +27,8 @@
       .command { clip-path: inset(0 100% 0 0); animation: command 11s steps(13, end) infinite; }
       .name { clip-path: inset(0 100% 0 0); animation: name 11s steps(26, end) infinite; }
       .role { clip-path: inset(0 100% 0 0); animation: role 11s steps(31, end) infinite; }
-      .interests { clip-path: inset(0 100% 0 0); animation: interests 11s steps(55, end) infinite; }
-      .currently { clip-path: inset(0 100% 0 0); animation: currently 11s steps(42, end) infinite; }
+      .driven { clip-path: inset(0 100% 0 0); animation: driven 11s steps(40, end) infinite; }
+      .exploring { clip-path: inset(0 100% 0 0); animation: exploring 11s steps(49, end) infinite; }
       .final-prompt { opacity: 0; animation: finalPrompt 11s step-end infinite; }
       .cursor { opacity: 0; animation: cursorBlink 11s step-end infinite; }
 
@@ -44,11 +44,11 @@
         0%, 24% { clip-path: inset(0 100% 0 0); }
         32%, 100% { clip-path: inset(0 0 0 0); }
       }
-      @keyframes interests {
+      @keyframes driven {
         0%, 35% { clip-path: inset(0 100% 0 0); }
         49%, 100% { clip-path: inset(0 0 0 0); }
       }
-      @keyframes currently {
+      @keyframes exploring {
         0%, 52% { clip-path: inset(0 100% 0 0); }
         63%, 100% { clip-path: inset(0 0 0 0); }
       }
@@ -64,7 +64,7 @@
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .command, .name, .role, .interests, .currently { clip-path: none; animation: none; }
+      .command, .name, .role, .driven, .exploring { clip-path: none; animation: none; }
       .final-prompt, .cursor { opacity: 1; animation: none; }
     }
   </style>
@@ -79,8 +79,8 @@
     <text x="34" y="80"><tspan class="prompt">alina@github</tspan><tspan class="path"> ~ </tspan><tspan class="prompt">% </tspan><tspan class="command value">cat about.txt</tspan></text>
     <text x="34" y="112" class="name"><tspan class="label">name</tspan><tspan dx="82" class="value">Alina Glumova</tspan></text>
     <text x="34" y="144" class="role"><tspan class="label">role</tspan><tspan dx="82" class="value">software engineer</tspan></text>
-    <text x="34" y="176" class="interests"><tspan class="label">interests</tspan><tspan dx="28" class="value">Edge AI · agent systems · secure software</tspan></text>
-    <text x="34" y="208" class="currently"><tspan class="label">currently</tspan><tspan dx="28" class="value">local AI · MCP · evaluations</tspan></text>
+    <text x="34" y="176" class="driven"><tspan class="label">driven by</tspan><tspan dx="28" class="value">curiosity · AI · ML · LLMs</tspan></text>
+    <text x="34" y="208" class="exploring"><tspan class="label">exploring</tspan><tspan dx="28" class="value">Edge AI · agents · secure software</tspan></text>
     <text x="34" y="240" class="final-prompt"><tspan class="prompt">alina@github</tspan><tspan class="path"> ~ </tspan><tspan class="prompt">% </tspan></text>
     <rect class="cursor" x="263" y="221" width="13" height="23" rx="1"/>
   </g>
