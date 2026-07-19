@@ -1,9 +1,9 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/profile-hero-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/profile-hero-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
-  <img src="./assets/profile-hero-dark.svg" width="100%" alt="Hi, I'm Alina. I make AI coding agents understand what they change — and prove it. Building Mastermind, MCP, code intelligence, and evals.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/profile-hero-mobile-dark.svg?v=2">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/profile-hero-mobile-light.svg?v=2">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg?v=2">
+  <img src="./assets/profile-hero-dark.svg?v=2" width="100%" alt="Hi, I'm Alina. I make AI coding agents understand what they change — and prove it. Building Mastermind, MCP, code intelligence, and evals.">
 </picture>
 
 <p align="center">
